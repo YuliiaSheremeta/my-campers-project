@@ -1,0 +1,19 @@
+.header{
+    max-width: 1440px;
+    max-height: 72px;
+    padding: 28px 64px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   
+}
+.nav{
+    display:flex;   
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
