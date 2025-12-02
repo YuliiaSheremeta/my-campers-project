@@ -2,18 +2,33 @@
     max-width: 1440px;
     max-height: 72px;
     padding: 28px 64px;
-}
-.container{
     display: flex;
-    justify-content: center;
-   
+    align-items: center;
+    font-family: var(--font-inter), sans-serif;
 }
-.nav{
-    display:flex;   
+.leftcontainer, .nav, .rightcontainer{
+    flex: 1;
 }
 .list{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav ul{
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 32px;
+    list-style: none;
+}
+.logo{
+    color: #475467;
+    font-weight: 800;
+    font-size: 20px;
+}
+.leftcontainer{
+    font-weight: 800;
+    font-size: 20px;
+}
+.active{
+    color:#D84343;
 }
